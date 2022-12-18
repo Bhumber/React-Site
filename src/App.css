@@ -1,0 +1,33 @@
+.App {
+  display: grid;
+  grid-template-areas: 
+  'top top'
+  'left right';
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px; 
+
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  grid-area: top;
+  background-color: rgb(185, 80, 246);
+}
+
+.nav {
+  grid-area: left;
+  background-color: rgb(185, 80, 246);
+}
+
+.content {
+  grid-area: right;
+  background-color: rgb(248, 189, 99);
+}
+
+.content img {
+  width: 900px;
+}
+
