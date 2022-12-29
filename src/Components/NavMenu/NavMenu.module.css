@@ -1,8 +1,30 @@
 .nav {
     grid-area: left;
-    background-color: rgb(185, 80, 246);
+    height: auto;
 }
 
 .item {
-    color: aqua;
+    font-size: 22px;
+    line-height: 40px;
+    height: 40px;
+    margin: 0 0 5px 0;
+    padding-left: 20px;
+    background-color: #13738F;
+    border-radius: 5px;
 }
+
+.item:hover {
+    color: #21373d;
+    background-color: #88d8f0;
+    box-shadow: 1px 2px;
+}
+
+.item.settings {
+    margin-top: 30px;
+}
+
+.key {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+

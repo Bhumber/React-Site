@@ -1,0 +1,33 @@
+.add {
+    padding: 10px 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+.field {
+    background-color: #F6CA9C;
+    margin: 0 20px 20px 20px;
+    width: 815px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+
+    font-size: 20px;
+    
+    background-color: #F6CA9C;
+}
+
+.button {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #72138f;
+
+    font-size: 22px;
+    color: #EFF59C;
+}
+
+.button:hover {
+    color: rgb(0, 0, 0);
+    background-color: #c378da;
+}

@@ -1,0 +1,13 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.meMess {
+
+}
+
+.fMess {
+    align-self: end;
+}

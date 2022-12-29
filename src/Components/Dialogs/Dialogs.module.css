@@ -1,0 +1,16 @@
+.page {
+    background-color: #f5d9bb;
+}
+
+.dialogsBox {
+    width: 500px;
+    display: flex;
+    padding: 20px;
+    
+}
+
+.messagesBox {
+    
+}
+
+

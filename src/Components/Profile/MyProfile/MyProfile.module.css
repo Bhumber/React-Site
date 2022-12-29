@@ -1,0 +1,19 @@
+.profileInfo {
+    margin: 0 0 10px 0;
+    background-color: #bdeaf7;
+
+    display: flex;
+}
+
+.ava {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px 0 10px 10px;
+    border: 2px solid;
+    box-shadow: 2px 5px;
+}
+
+.discription {
+    margin: 10px;
+}
