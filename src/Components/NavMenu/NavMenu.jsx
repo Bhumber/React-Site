@@ -11,6 +11,9 @@ const NavMenu = () => {
           <NavLink className={classes.key} to="/dialogs">
             <div className={classes.item}>Messages</div>
           </NavLink>
+          <NavLink className={classes.key} to="/friends">
+            <div className={classes.item}>Friends</div>
+          </NavLink>
           <NavLink className={classes.key} to="/news">
             <div className={classes.item}>News</div>
           </NavLink>

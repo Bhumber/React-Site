@@ -1,8 +1,27 @@
-.friend {
+.dialogBox {
     text-decoration: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;  
+    border-bottom: 2px solid black;
+    border-radius: 65px 10px 10px 65px;  
+    margin-bottom: 5px;
+}
 
+.dialogBox:hover {
+    background-color: #5cb6d0;
+}
+
+.nameBox {
     display: flex;
     align-items: baseline;
+}
+
+.messageBox {
+    text-decoration: none;
+    align-self: center;
+    color: black;
 }
 
 .ava {
@@ -18,6 +37,6 @@
 
 .name {
     color: #0a0907;
-
-    margin: 0 20px 0 0;
+    margin: 0 0 0 30px;
+    font-size: 25px;
 } 

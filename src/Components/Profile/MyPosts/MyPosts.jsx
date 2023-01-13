@@ -12,7 +12,7 @@ const MyPosts = (props) => {
         <div className={classes.myPosts}>
             <div className={classes.addPost}>
                 <div className={classes.myPost}>My posts</div>
-                <AddPost />
+                <AddPost state={props.state} addPost={props.addPost} updateNewPostText={props.updateNewPostText} />
             </div>
             {postsMap}
         </div>
