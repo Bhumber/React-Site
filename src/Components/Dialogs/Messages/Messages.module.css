@@ -1,0 +1,38 @@
+.messField {
+    margin: 10px;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.myMess {
+    display: flex;
+    align-self: flex-end;
+    align-items: baseline;
+    flex-direction: row-reverse;
+}
+
+.answer {
+    display: flex;
+    align-items: baseline;
+    align-self: start;   
+}
+
+.ava {
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.cloud {
+    background-color: rgb(233, 244, 255);
+
+    width: 300px;
+    height: auto;
+    min-height: 40px;
+    
+    border-radius: 10px;
+}

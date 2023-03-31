@@ -9,7 +9,6 @@ const DialogItem = (props) => {
         <div className={classes.ava}>ava</div>
         <div className={classes.name}>{props.name}</div>
       </div>
-      <div className={classes.messageBox}>{props.message}</div>
     </NavLink>
   );
 }

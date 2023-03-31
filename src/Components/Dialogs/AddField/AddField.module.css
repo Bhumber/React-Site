@@ -1,0 +1,33 @@
+.addField {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #cee8f0;
+    border-top: 1px solid;
+    
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-self: flex-end;
+}
+
+.field {
+    height: 20px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 10px;
+    border: 2px solid;
+}
+
+.button {
+    background-color: #72138f;
+    font-size: 22px;
+    color: #EFF59C;
+    border-radius: 6px;
+    height: 30px;
+    margin: 0 0 0 10px;
+}
+
+.button:hover {
+    color: rgb(0, 0, 0);
+    background-color: #c378da;
+}

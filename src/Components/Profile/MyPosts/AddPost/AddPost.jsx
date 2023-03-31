@@ -1,28 +1,26 @@
 import React from "react";
 import classes from './AddPost.module.css';
+import {addPostActionCreator, UNPTActionCreator} from './../../../Redux/profileReducer';
 
 const NewPosts = (props) => {
 
-    let newPostElement = React.createRef();
-
     let addPost = () => {
-      let text = newPostElement.current.value;
-      props.addPost(text);
+      props.dispatch(addPostActionCreator());
     }
 
-    let postChange = () => {
-      let text = newPostElement.current.value;
-      props.updateNewPostText(text);
+    let postChange = (event) => {
+      let text = event.target.value;
+      props.dispatch(UNPTActionCreator(text));
     }
     
     return (
       <div className={classes.add}>
         <textarea 
                   onChange={postChange}
-                  ref={newPostElement} 
                   value={props.state.newPostText}
                   className={classes.field}/>
-        <button onClick={addPost}
+        <button 
+                onClick={addPost}
                 className={classes.button}>Add</button>
       </div>
     );
